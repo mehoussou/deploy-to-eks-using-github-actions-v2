@@ -1,1 +1,1 @@
-# deploy-to-eks-using-github-actions-v2
+# deploy-to-eks-using-github-actions
