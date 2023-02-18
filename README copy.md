@@ -11,9 +11,10 @@ eksctl create cluster --name primuslearning --region us-east-2 --nodegroup-name 
         Go to settings of repo created
         click on secrets and variables-->actions-->new repo secret --> add secret ID and key.
 6. Create new github repo and copy ssh then clone it
-6. Test application by getting the dns name and going to a web browser
+7. Test application by getting the dns name and going to a web browser
 (go to aws console, search for elastic load balancer->Description then copy the DNS NAME) or copy the dns name doing : kubectl get services 
 
 kubectl get pods ----> to see the pod that run
 
-Clean up: Run: eksctl delete cluster --name primuslearning
+8. To delete the cluster created on aws
+Run: eksctl delete cluster --name primuslearning
